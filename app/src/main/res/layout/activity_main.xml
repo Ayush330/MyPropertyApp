@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="8dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:inputType="textPersonName"
+        android:hint="@string/pincode"
+        />
+
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="8dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:inputType="textPersonName"
+        android:hint="@string/place"
+         />
+
+    <EditText
+        android:id="@+id/owner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="8dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:inputType="textPersonName"
+        android:hint="@string/owner"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:background="@color/cardview_shadow_start_color"
+        android:inputType="textPersonName"
+        android:hint="@string/phone_number"
+        />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:background="@color/cardview_shadow_start_color"
+        android:inputType="textPersonName"
+        android:hint="@string/price"
+        />
+
+    <EditText
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="8dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:inputType="textPersonName"
+        android:hint="@string/details"
+        />
+
+
+    <Button
+        android:id="@+id/push"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/send"
+        android:onClick="release"
+        />
+
+    <Button
+        android:id="@+id/pull"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Search"
+        android:onClick="search"
+        />
+</LinearLayout>

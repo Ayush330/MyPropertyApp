@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">freebase</string>
+    <string name="enter_your_message_please">ENTER YOUR MESSAGE PLEASE!</string>
+    <string name="send">SEND</string>
+    <string name="details">details</string>
+    <string name="price">price</string>
+    <string name="phone_number">Phone number</string>
+    <string name="owner">Owner</string>
+    <string name="place">Place</string>
+    <string name="pincode">pincode</string>
+    <string name="search" />
+    <string name="enter_the_city_name">Enter the city name</string>
+    <string name="title_activity_search_result">SearchResult</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="delete">DELETE</string>
+    <string name="dialog_fire_missiles" />
+    <string name="fire" />
+    <string name="cancel" />
+    <string name="todo">TODO</string>
+
+</resources>
