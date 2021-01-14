@@ -7,7 +7,7 @@ Also, if you need to search for a property in an area, just type the name of the
 # Screenshots
 
 <div align="center">
-    <img src="/screenshots/1.png" width="400px"</img> 
+    <img src="/screenshots/1.jpeg" width="400px"</img> 
 </div>
  
  
