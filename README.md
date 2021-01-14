@@ -6,8 +6,9 @@ Also, if you need to search for a property in an area, just type the name of the
  
 # Screenshots
 
-![image]https://github.com/Ayush330/MyPropertyApp/blob/main/screenshots/1.jpeg
- 
+<div align="center">
+    <img src="/screenshots/1.png" width="400px"</img> 
+</div>
  
  
  
